@@ -1,7 +1,6 @@
--- Gui to Lua
--- Version: 3.2
+repeat task.wait() until game:isloaded()
 
--- Instances:
+
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -9,7 +8,7 @@ local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 
---Properties:
+
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -47,7 +46,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function BMQPSWN_fake_script() -- Frame.LocalScript 
+local function QPJU_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -89,27 +88,7 @@ local function BMQPSWN_fake_script() -- Frame.LocalScript
 		wait(1)
 		
 		script.Parent.Position = UDim2.new(0.003, 1590,0.867, 0)
-		
-		
-		
-		
-		
-		
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
-		
-		
 		
 	end
 	
@@ -146,4 +125,4 @@ local function BMQPSWN_fake_script() -- Frame.LocalScript
 	
 	script.Parent:Destroy()
 end
-coroutine.wrap(BMQPSWN_fake_script)()
+coroutine.wrap(QPJU_fake_script)()
